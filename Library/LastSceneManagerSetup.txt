@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/SampleScene.unity
+- path: Assets/02.Scenes/Scenes_map/1.Forest(tutorial).unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

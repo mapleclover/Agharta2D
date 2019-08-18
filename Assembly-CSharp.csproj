@@ -56,6 +56,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\01.Scripts\BigMonsterControl.cs" />
+     <Compile Include="Assets\01.Scripts\block\blockController.cs" />
+     <Compile Include="Assets\01.Scripts\block\fallingBlock.cs" />
+     <Compile Include="Assets\01.Scripts\block\fireController.cs" />
+     <Compile Include="Assets\01.Scripts\block\mudController.cs" />
      <Compile Include="Assets\01.Scripts\BullectLocation.cs" />
      <Compile Include="Assets\01.Scripts\BulletControl.cs" />
      <Compile Include="Assets\01.Scripts\CameraFollow.cs" />
@@ -68,10 +72,12 @@
      <Compile Include="Assets\01.Scripts\Devil\MagmaMovement.cs" />
      <Compile Include="Assets\01.Scripts\Devil\WarningSignControl.cs" />
      <Compile Include="Assets\01.Scripts\DigMonsterControl.cs" />
+     <Compile Include="Assets\01.Scripts\doorController.cs" />
      <Compile Include="Assets\01.Scripts\ExtensionMethod.cs" />
      <Compile Include="Assets\01.Scripts\FireControl.cs" />
      <Compile Include="Assets\01.Scripts\FlyingMonsterControl.cs" />
      <Compile Include="Assets\01.Scripts\GameManager.cs" />
+     <Compile Include="Assets\01.Scripts\GameOver.cs" />
      <Compile Include="Assets\01.Scripts\GhostControl.cs" />
      <Compile Include="Assets\01.Scripts\HP.cs" />
      <Compile Include="Assets\01.Scripts\MainOption.cs" />
@@ -111,19 +117,9 @@
      <Compile Include="Assets\Anima2D\Scripts\SpriteMesh.cs" />
      <Compile Include="Assets\Anima2D\Scripts\SpriteMeshAnimation.cs" />
      <Compile Include="Assets\Anima2D\Scripts\SpriteMeshInstance.cs" />
-     <Compile Include="Assets\scripts\blockController.cs" />
-     <Compile Include="Assets\scripts\CameraController.cs" />
-     <Compile Include="Assets\scripts\CatController.cs" />
-     <Compile Include="Assets\scripts\doorController.cs" />
-     <Compile Include="Assets\scripts\fallingBlock.cs" />
-     <Compile Include="Assets\scripts\fireController.cs" />
-     <Compile Include="Assets\scripts\GameOver.cs" />
      <Compile Include="Assets\scripts\GhostControl.cs" />
      <Compile Include="Assets\scripts\gotoGame.cs" />
      <Compile Include="Assets\scripts\HUD.cs" />
-     <Compile Include="Assets\scripts\ladderController.cs" />
-     <Compile Include="Assets\scripts\mudController.cs" />
-     <Compile Include="Assets\scripts\NewCatController.cs" />
      <Compile Include="Assets\scripts\onExit.cs" />
      <Compile Include="Assets\scripts\PauseMenu.cs" />
      <Compile Include="Assets\scripts\PlayerAttack.cs" />
@@ -356,9 +352,6 @@
  <Reference Include="nunit.framework">
  <HintPath>C:/2019.1.8f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Users/선미아/Documents/GitHub/Agharta2D/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Analytics.Editor">
  <HintPath>C:/Users/선미아/Documents/GitHub/Agharta2D/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
@@ -367,9 +360,6 @@
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
  <HintPath>C:/Users/선미아/Documents/GitHub/Agharta2D/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Purchasing">
- <HintPath>C:/Users/선미아/Documents/GitHub/Agharta2D/Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/2019.1.8f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
