@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/02.Scenes/Scenes_map/1.Forest(tutorial).unity
+- path: Assets/02.Scenes/Scenes_map/4.Hell.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
